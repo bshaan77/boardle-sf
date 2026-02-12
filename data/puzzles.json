@@ -780,6 +780,318 @@
       "score": 5,
       "likeCount": 0,
       "retweetCount": 0
+    },
+    {
+      "id": "402a0737-706b-4f82-8da3-191824ea18f9",
+      "tweetId": "2021256596215693762",
+      "tweetText": "I launched RentAHuman 1 week ago. Progress update:\n\nWeek 1: solved unemployment ✅\nWeek 2: solved population replacement in Japan and dating in SF ✅ https://t.co/1ummMihOpN https://t.co/GRvAPEDEjZ",
+      "authorUsername": "AlexanderTw33ts",
+      "imageUrl": "https://pbs.twimg.com/media/HAxo-5Xa8AAtBF2.jpg",
+      "localImagePath": "/puzzles/f711de60-914f-4f8c-b055-c845e8dc5bb0.jpg",
+      "fetchedAt": "2026-02-12T18:43:12.896Z",
+      "status": "pending",
+      "score": 83.5,
+      "likeCount": 133,
+      "retweetCount": 6,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "6462ed9c-b0a9-46a7-bfac-5f768205542a",
+      "tweetId": "2021270467919872350",
+      "tweetText": "$SCHW $SF $MS dump all because Altruist has launched an AI-powered tax planning feature.\n\nThese AI-induced falling knives are getting ridiculous. https://t.co/x0khCP7GBV",
+      "authorUsername": "SayNoToTrading",
+      "imageUrl": "https://pbs.twimg.com/media/HAz97mobEAALrjC.jpg",
+      "localImagePath": "/puzzles/455010f7-4e08-4273-baa1-6f124c1bac04.jpg",
+      "fetchedAt": "2026-02-12T18:43:12.470Z",
+      "status": "pending",
+      "score": 44.5,
+      "likeCount": 57,
+      "retweetCount": 3,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "cb9412eb-1ff0-473c-9a96-e57f39608653",
+      "tweetId": "2021270467919872350",
+      "tweetText": "$SCHW $SF $MS dump all because Altruist has launched an AI-powered tax planning feature.\n\nThese AI-induced falling knives are getting ridiculous. https://t.co/x0khCP7GBV",
+      "authorUsername": "SayNoToTrading",
+      "imageUrl": "https://pbs.twimg.com/media/HAz-mlEbIAATUUR.png",
+      "localImagePath": "/puzzles/bbafcd75-cf4b-4614-9c86-21d518107755.png",
+      "fetchedAt": "2026-02-12T18:43:12.645Z",
+      "status": "pending",
+      "score": 44.5,
+      "likeCount": 57,
+      "retweetCount": 3,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "44a97139-0c08-4e42-8e5d-44b283af389b",
+      "tweetId": "2020030013811368230",
+      "tweetText": "NEAR AI has officially launched OpenClaw on our own TEEs. 🛡️\n\nIntelligence is only sovereign if it’s private. \n\nWe want to hear IRL in SF what you’re building with this new hardware-level security.\n\n​Join us for an evening of demos, stories, and informal conversation with fellow https://t.co/8ZTHwBt8d8",
+      "authorUsername": "NEARLegion",
+      "imageUrl": "https://pbs.twimg.com/media/HAiWbNabMAA64vk.jpg",
+      "localImagePath": "/puzzles/36d7bc91-69fb-4bed-ae1e-2ae66c3b3e89.jpg",
+      "fetchedAt": "2026-02-12T18:43:14.122Z",
+      "status": "pending",
+      "score": 31.5,
+      "likeCount": 37,
+      "retweetCount": 4,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "d0f468bd-ee2b-47b5-b048-916cece3bb07",
+      "tweetId": "2019942939812852111",
+      "tweetText": "Proud to announce we've launched our first ads across SF today. https://t.co/3gfP7fWmuE",
+      "authorUsername": "lexdoudkin",
+      "imageUrl": "https://pbs.twimg.com/media/HAgrlrna0AAgt_S.jpg",
+      "localImagePath": "/puzzles/092d9189-3558-4a10-91bc-b2b56c748c0a.jpg",
+      "fetchedAt": "2026-02-12T18:43:14.330Z",
+      "status": "pending",
+      "score": 25.5,
+      "likeCount": 29,
+      "retweetCount": 3,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "f3d2505f-98e5-46e6-8799-2cfb734e7099",
+      "tweetId": "2020355296250720733",
+      "tweetText": "SF has had 47 AI events this week. OpenClaw just dropped. Everyone's debating if their job exists in 6 months.\n\nSo naturally we built an AI agent, gave it control of 20+ founders, and set it loose in Golden Gate Park.\n\nPart social experiment. Part urban RPG. Part AI mania. 🧵 https://t.co/4V3UQXlw8C",
+      "authorUsername": "Accelr8_Dan",
+      "imageUrl": "https://pbs.twimg.com/media/HAm82XPboAA1DSN.jpg",
+      "localImagePath": "/puzzles/3431f341-0c38-4868-9e0e-323a6e17cc31.jpg",
+      "fetchedAt": "2026-02-12T18:43:13.823Z",
+      "status": "pending",
+      "score": 25,
+      "likeCount": 28,
+      "retweetCount": 3,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "f6d55154-c1b2-4bd1-a547-929cf424b7e6",
+      "tweetId": "2019728223312203926",
+      "tweetText": "redbull enjoyers new flavour just dropped omg 💚💚💚 its not sf tho…but i will still try it…. https://t.co/pVmzT8MXfG",
+      "authorUsername": "explicit1ly",
+      "imageUrl": "https://pbs.twimg.com/media/HAeEHNbbgAE5XUo.jpg",
+      "localImagePath": "/puzzles/e31cc836-da72-4c13-97d8-e0b3dd36a88a.jpg",
+      "fetchedAt": "2026-02-12T18:43:14.609Z",
+      "status": "pending",
+      "score": 9,
+      "likeCount": 8,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "3a63346f-a4d0-40aa-80c4-26fd1dbe9b02",
+      "tweetId": "2019597845729538536",
+      "tweetText": "The #RSD26 list just dropped, but you don't have to wait until April to hear some of the music!\nJoin us at Amoeba SF for a #RecordStoreDay List Launch listening party, powered by @marshall, on Friday, February 13th at 5pm!\nℹ️: https://t.co/Sejoo9ASEr\n#ListenTogether #ListLaunch https://t.co/MdxN24ZZDb",
+      "authorUsername": "AmoebaSF",
+      "imageUrl": "https://pbs.twimg.com/media/HAcM4tFacAMNFrO.jpg",
+      "localImagePath": "/puzzles/61f7f981-17a1-4b1f-ad2a-1e75e873680b.jpg",
+      "fetchedAt": "2026-02-12T18:43:14.914Z",
+      "status": "pending",
+      "score": 6,
+      "likeCount": 2,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "491bbfa1-4c4f-4cf8-ad2b-f847f15137e0",
+      "tweetId": "2021831252471689691",
+      "tweetText": "💡 Did you know?\n\nSalesforce was launched in 1999 as a CRM tool and became one of the first companies to offer Software as a Service (SaaS) over the internet.\n\nLearn Salesforce with Maayan. Get career-ready.\n\n👉 Comment “SF”—we’ll connect.\n\n#MaayanSDC\n#SalesforceTraining https://t.co/i5Xwm2wKXd",
+      "authorUsername": "MaayanSkill",
+      "imageUrl": "https://pbs.twimg.com/media/HA77U-zbsAEhkCC.jpg",
+      "localImagePath": "/puzzles/1bcdd4d4-57ae-4a4a-8d42-2d5f9a49e5b8.jpg",
+      "fetchedAt": "2026-02-12T18:43:12.344Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "c65dac7a-e375-41d5-8013-314060c98b06",
+      "tweetId": "2021266282029502784",
+      "tweetText": "just dropped by blue bottle coffee in sf and got this fire cold brew for $5.75 😂💀 sephora employee staring like \"girl what?\" anyway periodt 🔥🧍‍♀️ https://t.co/QYcvcoxHuv",
+      "authorUsername": "KevinFord572489",
+      "imageUrl": "https://pbs.twimg.com/media/HAz68SebsAADqIu.jpg",
+      "localImagePath": "/puzzles/04e86c74-3060-4ae7-97be-485c9d83c946.jpg",
+      "fetchedAt": "2026-02-12T18:43:12.803Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "4cfaaf03-d70f-4cf6-9f9d-0a11b3cc4acf",
+      "tweetId": "2020905707457958032",
+      "tweetText": "Price just dropped ⬇️ Retail for lease at 99-15 Northern Blvd, Corona — approx. 3,000 SF with strong frontage on a busy corridor.\n\nIf you’re looking for retail space in Queens, reach out to the NYSF team to learn more. https://t.co/fA50kEkk4o",
+      "authorUsername": "NYSpaceFinders_",
+      "imageUrl": "https://pbs.twimg.com/media/HAuzBKtaAAkFMwt.jpg",
+      "localImagePath": "/puzzles/a44763ab-19aa-4456-8720-cb81e774889e.jpg",
+      "fetchedAt": "2026-02-12T18:43:13.346Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "0d0d112c-8c01-4126-a6f2-290182e4bff6",
+      "tweetId": "2020157538914955573",
+      "tweetText": "AI Loop #13 is live 🚀\nBig week for @PerleLabs: SF HQ opened, Human CAPTCHA Rounds 1 &amp; 2 launched, plus the Ambiguous Instructions Quest teaching AI when not to act.\nMeanwhile Claude Opus 4.6 dropped, xAI made waves, and AI boosted heart disease detection. https://t.co/6kx06v9XFo",
+      "authorUsername": "Azhar0224",
+      "imageUrl": "https://pbs.twimg.com/media/HAkKk1BaUAA0Mu_.jpg",
+      "localImagePath": "/puzzles/5aee552b-f7f1-4d2d-9438-28639f1b5956.jpg",
+      "fetchedAt": "2026-02-12T18:43:13.931Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "fe5a826d-4584-4c7a-ac42-e3a48985e4c0",
+      "tweetId": "2020133637694353412",
+      "tweetText": "Hav Jhantu Ali Shaikh of 6 PARA (SF) attained Veergati in the ongoing encounter launched in retaliation to the Pahalgam attack. \n\nHis name must echo louder across Indian media than the names of the foreign terrorists gaining attention in international media. \n\nJai Hind 🇮🇳🇮🇳🙏🙏 https://t.co/qRpGyCbVut",
+      "authorUsername": "RajCharvaka",
+      "imageUrl": "https://pbs.twimg.com/media/HAj0gqNaoAAOWQA.jpg",
+      "localImagePath": "/puzzles/876b1526-526e-4ba7-acba-dced3ce834dc.jpg",
+      "fetchedAt": "2026-02-12T18:43:14.030Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
     }
   ]
 }

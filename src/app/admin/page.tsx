@@ -633,8 +633,9 @@ export default function AdminPage() {
                 🤖 Intelligent Billboard Search
               </h2>
               <p className="mb-4 text-sm text-zinc-400">
-                AI-powered search that automatically finds and validates
-                billboards until reaching the daily goal of 3 valid billboards.
+                AI-powered search that finds and validates billboards until:
+                <br />
+                ✅ <strong>3 valid billboards found</strong> OR 💰 <strong>$1.00 spent</strong> (whichever comes first)
               </p>
               <button
                 onClick={() => smartSearchMutation.mutate()}
@@ -646,14 +647,28 @@ export default function AdminPage() {
                   : "Run Smart Search"}
               </button>
               {smartSearchMutation.isSuccess && (
-                <div className="mt-4 rounded-lg border border-green-700 bg-green-900/20 p-4">
-                  <p className="text-sm font-medium text-green-300">
-                    ✅ Smart Search Complete!
+                <div className={`mt-4 rounded-lg border p-4 ${
+                  smartSearchMutation.data.reachedGoal
+                    ? "border-green-700 bg-green-900/20"
+                    : "border-amber-700 bg-amber-900/20"
+                }`}>
+                  <p className={`text-sm font-medium ${
+                    smartSearchMutation.data.reachedGoal
+                      ? "text-green-300"
+                      : "text-amber-300"
+                  }`}>
+                    {smartSearchMutation.data.reachedGoal
+                      ? "✅ Smart Search Complete!"
+                      : "⚠️ Search Stopped"}
                   </p>
-                  <div className="mt-2 space-y-1 text-sm text-green-200">
+                  <div className={`mt-2 space-y-1 text-sm ${
+                    smartSearchMutation.data.reachedGoal
+                      ? "text-green-200"
+                      : "text-amber-200"
+                  }`}>
                     <p>
                       • Valid billboards found:{" "}
-                      {smartSearchMutation.data.validBillboardsFound}
+                      <strong>{smartSearchMutation.data.validBillboardsFound}</strong>
                     </p>
                     <p>
                       • Total candidates:{" "}
@@ -665,8 +680,10 @@ export default function AdminPage() {
                       {smartSearchMutation.data.newQueriesGenerated}
                     </p>
                     <p>
-                      • Goal reached:{" "}
-                      {smartSearchMutation.data.reachedGoal ? "Yes 🎉" : "No"}
+                      • Cost: <strong>${smartSearchMutation.data.totalCostUSD.toFixed(4)}</strong>
+                    </p>
+                    <p className="pt-1 text-xs opacity-75">
+                      Stopped: {smartSearchMutation.data.stoppedReason.replace(/_/g, " ")}
                     </p>
                   </div>
                 </div>

@@ -44,6 +44,15 @@
       "duplicatesSkipped": 0,
       "source": "manual",
       "id": "search-1770916723789-k5pkmn"
+    },
+    {
+      "timestamp": "2026-02-12T18:43:16.544Z",
+      "query": "(\"just dropped\" OR \"launched\" OR \"our billboard\") SF has:images -is:retweet -is:reply",
+      "resultsCount": 20,
+      "candidatesAdded": 13,
+      "duplicatesSkipped": 3,
+      "source": "automated",
+      "id": "search-1770921796544-kfqqcx"
     }
   ],
   "monthlyQuota": 10000,
