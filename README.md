@@ -1,271 +1,146 @@
 # Boardle SF
 
-A daily puzzle game where players guess which San Francisco tech company a redacted billboard belongs to. Think Wordle meets billboard spotting!
+GeoGuessr but for San Francisco tech billboards. See a redacted billboard, guess the company. New one every day.
 
 ## What is this?
 
-SF Billboard is a web game that:
-- Shows a redacted billboard image from San Francisco each day
-- Players get 6 guesses to identify the company
-- Provides hints after 3 wrong guesses
-- Tracks stats (win rate, streaks, guess distribution)
+Every day you get a photo of a billboard from SF with the company name/logo covered up. You have 6 tries to guess which company it is. That's it.
 
-**Key Features:**
-- 🤖 **AI-Powered Discovery** - Automatically finds SF billboard posts on X (Twitter)
-- 🔍 **Smart Validation** - OpenAI Vision validates if images are actual billboards
-- 🧠 **Adaptive Learning** - Claude AI generates optimized search queries based on performance
-- 💰 **Budget-Controlled** - Stops at 3 billboards OR $1/day in AI costs (whichever first)
-- 🎨 **Canvas Redaction Tool** - Draw boxes over company names/logos
-- 📊 **Admin Panel** - Manage candidates, schedule puzzles, view analytics
+After 3 wrong guesses you get a hint. Stats are tracked locally (win rate, current streak, etc).
+
+**How billboards are sourced:**
+- Automated X (Twitter) search runs daily looking for SF billboard posts
+- OpenAI checks if images are actually billboards (not news articles, etc)
+- If less than 3 good ones are found, Claude generates new search queries to try
+- Stops after finding 3 billboards or spending $1 on AI, whichever comes first
+- Admin panel to review candidates, redact company names, and schedule puzzles
 
 ## Tech Stack
 
-Built with the [T3 Stack](https://create.t3.gg/):
-- **Next.js 15** - React framework with App Router
-- **TypeScript** - Type safety
-- **tRPC** - End-to-end typesafe APIs
-- **Tailwind CSS** - Styling
-- **File-based storage** - JSON persistence (puzzles, candidates, quota tracking)
-
-**AI Services:**
-- **OpenAI GPT-4o-mini Vision** - Image validation
-- **Claude 3.5 Sonnet** - Query generation and optimization
-- **X (Twitter) API** - Billboard discovery
+- Next.js 15 (T3 Stack)
+- TypeScript + tRPC
+- Tailwind CSS
+- JSON file storage (no database)
+- OpenAI Vision for image validation
+- Claude for search query generation
+- X API for finding billboard posts
 
 ## How It Works
 
-### For Players
-1. Visit the site daily
-2. See a redacted billboard image from SF
-3. Type guesses (autocomplete with known SF companies)
-4. Get feedback on each guess
-5. Win by guessing correctly within 6 attempts
-6. Share results and view stats
+**Playing:**
+1. Look at the redacted billboard
+2. Type a company name (autocomplete helps)
+3. See if you're right
+4. Repeat until you win or run out of guesses (6 max)
 
-### Behind the Scenes
+**Finding Billboards (automated):**
 
-**Automated Daily Search (9 AM UTC):**
-1. **Smart Search** runs multiple optimized queries on X API
-2. **OpenAI Vision** validates each image:
-   - Is it a physical billboard?
-   - Is it in San Francisco?
-   - Does it have company branding?
-   - Is the image quality good enough?
-3. **Auto-categorize** based on AI confidence:
-   - >90% = Auto-approved
-   - 50-90% = Flagged for manual review
-   - <50% = Auto-rejected
-4. **If < 3 valid found**: Claude generates new search queries
-5. **Stops when**: 3 billboards found OR $1 AI budget spent
-6. **Learns & adapts**: Tracks query performance, prunes failures
+Every day at 9 AM UTC, the system:
+1. Searches X with different queries looking for SF billboard posts
+2. OpenAI checks each image - is it actually a billboard in SF with visible branding?
+3. Auto-approves high confidence ones (>90%), flags medium ones (50-90%) for review, rejects bad ones
+4. If less than 3 good billboards found, Claude generates new search queries to try
+5. Keeps going until it hits 3 billboards or spends $1 on AI
+6. Tracks which queries work and which don't
 
-**Admin workflow:**
-1. Review auto-approved candidates
-2. Use canvas tool to redact company names/logos
-3. Add puzzle metadata (answer, hint, category, date)
-4. Schedule for future dates
+**Admin Side:**
+1. Check what got auto-approved
+2. Draw boxes over company names/logos to redact them
+3. Add the answer, hint, and category
+4. Schedule it for a future date
 
 ## Setup
 
-### Prerequisites
-- Node.js 18+
-- npm or pnpm
-- API keys (see below)
-
-### Installation
+You'll need Node.js 18+ and API keys for X, OpenAI, and optionally Anthropic.
 
 ```bash
-# Clone the repo
 git clone https://github.com/bshaan77/boardle-sf.git
 cd boardle-sf
-
-# Install dependencies
 npm install
-
-# Copy environment template
 cp .env.example .env
-
-# Add your API keys (see next section)
 ```
 
-### Environment Variables
-
-Add these to your `.env` file:
+Now edit `.env` and add your keys:
 
 ```bash
-# Required - X (Twitter) API
-X_BEARER_TOKEN="your_bearer_token"  # Get from https://developer.x.com
+X_BEARER_TOKEN="..."           # Required - developer.x.com
+OPENAI_API_KEY="sk-..."        # Required - platform.openai.com
+ANTHROPIC_API_KEY="sk-ant-..." # Optional - console.anthropic.com
 
-# Required - OpenAI API
-OPENAI_API_KEY="sk-..."  # Get from https://platform.openai.com/api-keys
-
-# Optional - Anthropic API (for query optimization)
-ANTHROPIC_API_KEY="sk-ant-..."  # Get from https://console.anthropic.com
-
-# Optional - Automation Settings
-ENABLE_CRON="false"              # Set to "true" for automated daily searches
-CRON_SCHEDULE="0 9 * * *"        # 9 AM daily (crontab format)
-CRON_SECRET="random_string"      # Protect the cron endpoint
-
-# Optional - AI Budget Control
-DAILY_BILLBOARD_GOAL="3"         # How many billboards to find per day
-MAX_DAILY_AI_COST="1.0"          # Budget limit in USD (stops at goal OR budget)
+DAILY_BILLBOARD_GOAL="3"       # Find 3 per day
+MAX_DAILY_AI_COST="1.0"        # Or stop at $1, whichever first
 ```
 
-### Development
-
+Run it:
 ```bash
-# Start dev server
 npm run dev
-
-# Open in browser
-open http://localhost:3000
-
-# Access admin panel
-open http://localhost:3000/admin
+open http://localhost:3000        # Play the game
+open http://localhost:3000/admin  # Admin panel
 ```
 
-### Deployment
+Deploy to Vercel:
+1. Push to GitHub
+2. Import on vercel.com
+3. Add env vars
+4. Deploy
 
-**Deploy to Vercel (Recommended):**
+The `vercel.json` file sets up a daily cron job at 9 AM UTC to search for billboards automatically.
 
-1. Push to GitHub (already done!)
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Add environment variables in Vercel dashboard
-5. Deploy!
+## Admin Panel
 
-The included `vercel.json` configures:
-- Automated daily searches via Vercel Cron (9 AM UTC)
-- No manual scheduling needed
+Go to `/admin` (no auth - you should add that)
 
-## Admin Panel Guide
+**Search** - Manually run X searches, see quota usage
+**Candidates** - Approve/reject billboards, see AI confidence scores
+**Schedule** - Draw redaction boxes, add puzzle details, schedule dates
+**AI** - Run smart search, see which queries work best
 
-Access at `/admin` (no auth by default - add your own!)
+## Costs
 
-### Tabs
+**X API** - $100-200/month (pay-as-you-go tier, 7-day search window, 10k posts/month)
+**OpenAI** - ~$0.20-0.50/day (GPT-4o-mini vision to check images)
+**Claude** - ~$0.10-0.30/day (generates search queries)
 
-**1. Search Tab**
-- Manually trigger X API searches
-- View quota usage (monthly limit tracking)
-- See recent search history
-- Test different queries
-
-**2. Candidates Tab**
-- Review pending candidates (AI flagged for review)
-- Approve/reject billboard images
-- See AI confidence scores
-- Sort by quality score (engagement metrics)
-
-**3. Schedule Tab**
-- Redact approved billboards (canvas drawing tool)
-- Fill in puzzle metadata (answer, hint, category)
-- Schedule for specific dates
-- View scheduled puzzles
-
-**4. AI Tab**
-- Run smart search manually
-- View query performance analytics
-- See top-performing queries
-- Understand how the AI is learning
-
-## API Keys & Costs
-
-### X (Twitter) API
-- **Tier**: Pay-as-you-go ($100-200/month)
-- **Limits**: 7-day search window, 10k posts/month
-- **Sign up**: https://developer.x.com
-
-### OpenAI API
-- **Model**: GPT-4o-mini Vision
-- **Cost**: ~$0.00015 per image validation
-- **Estimate**: ~$0.20-0.50 per day
-- **Sign up**: https://platform.openai.com
-
-### Anthropic API
-- **Model**: Claude 3.5 Sonnet
-- **Cost**: ~$0.02 per query generation
-- **Estimate**: ~$0.10-0.30 per day
-- **Sign up**: https://console.anthropic.com
-
-**Total**: ~$10-20/month for AI services + X API costs
+Total: ~$10-20/month for AI + X API
 
 ## File Structure
 
 ```
-src/
-├── app/
-│   ├── _components/        # React components
-│   │   ├── GameBoard.tsx   # Main game interface
-│   │   ├── GuessInput.tsx  # Autocomplete input
-│   │   ├── RedactionCanvas.tsx  # Canvas drawing tool
-│   │   ├── ShareButton.tsx # Results sharing
-│   │   └── StatsModal.tsx  # Player statistics
-│   ├── admin/              # Admin panel
-│   │   └── page.tsx
-│   ├── api/
-│   │   ├── cron/           # Automated search endpoint
-│   │   └── trpc/           # tRPC routes
-│   ├── layout.tsx
-│   └── page.tsx            # Home page
-├── server/
-│   ├── api/
-│   │   ├── routers/
-│   │   │   └── billboard.ts  # tRPC router
-│   │   └── trpc.ts
-│   ├── data/               # Data persistence
-│   │   ├── companies.ts    # SF company list
-│   │   ├── puzzles.ts      # Puzzle & candidate storage
-│   │   ├── quota.ts        # X API quota tracking
-│   │   └── query-performance.ts  # Query analytics
-│   └── services/           # Business logic
-│       ├── twitter.ts      # X API integration
-│       ├── openai-vision.ts  # Image validation
-│       ├── claude-query-generator.ts  # Query optimization
-│       ├── smart-search.ts # Intelligent search orchestrator
-│       └── scheduled-search.ts  # Cron job handler
-└── trpc/                   # tRPC client setup
+src/app/
+  _components/        - Game UI (board, input, canvas, stats)
+  admin/              - Admin panel
+  api/cron/           - Daily search endpoint
 
-data/                       # JSON file storage
-├── puzzles.json           # Candidates & scheduled puzzles
-├── quota.json             # Search history & quota tracking
-└── query-performance.json # AI query analytics
+src/server/
+  api/routers/        - tRPC API
+  data/               - JSON storage logic
+  services/           - X API, OpenAI, Claude, smart search
 
-public/
-└── puzzles/               # Downloaded billboard images
+data/                 - JSON files (puzzles, quota, query stats)
+public/puzzles/       - Downloaded billboard images
 ```
 
 ## Data Storage
 
-Uses JSON file-based storage (no database required):
+Everything's in JSON files (no database):
+- `data/puzzles.json` - candidates and scheduled puzzles
+- `data/quota.json` - search history and X API quota tracking
+- `data/query-performance.json` - which queries work
+- `public/puzzles/` - downloaded images
 
-- **`data/puzzles.json`** - Candidates, scheduled puzzles
-- **`data/quota.json`** - Search history, X API quota usage
-- **`data/query-performance.json`** - AI query success rates
-
-Images stored in `public/puzzles/` directory.
-
-**Note**: For production with multiple instances, consider migrating to PostgreSQL/SQLite.
+If you run this at scale you'll want a real database.
 
 ## Contributing
 
-Contributions welcome! This is an open-source project.
-
-**Ideas for improvement:**
-- Add authentication to admin panel
-- Migrate to database (PostgreSQL/Drizzle)
-- Add more data sources (Instagram, Reddit, community submissions)
-- Improve AI validation prompts
-- Add image similarity detection for better deduplication
-- Mobile-responsive redaction canvas
+Open to PRs. Some ideas:
+- Add auth to admin panel
+- Switch to PostgreSQL
+- Instagram/Reddit as sources
+- Better AI prompts
+- Image similarity detection
+- Mobile redaction tool
 - Leaderboards
 
 ## License
 
 MIT
-
-## Credits
-
-Built with Claude Code by Anthropic.
-
-Tech billboards spotted by SF tech Twitter.
