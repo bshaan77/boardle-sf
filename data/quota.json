@@ -53,6 +53,33 @@
       "duplicatesSkipped": 3,
       "source": "automated",
       "id": "search-1770921796544-kfqqcx"
+    },
+    {
+      "timestamp": "2026-02-12T18:55:08.609Z",
+      "query": "(\"new billboard\" OR \"billboard in SF\" OR \"billboard in San Francisco\") has:images -is:retweet",
+      "resultsCount": 20,
+      "candidatesAdded": 24,
+      "duplicatesSkipped": 0,
+      "source": "automated",
+      "id": "search-1770922508609-zuyrmq"
+    },
+    {
+      "timestamp": "2026-02-12T18:55:29.541Z",
+      "query": "(\"dropped\" OR \"launched\") billboard SF has:images",
+      "resultsCount": 20,
+      "candidatesAdded": 5,
+      "duplicatesSkipped": 1,
+      "source": "automated",
+      "id": "search-1770922529542-42ts4"
+    },
+    {
+      "timestamp": "2026-02-12T19:21:40.848Z",
+      "query": "(\"new billboard\" OR \"billboard in SF\" OR \"billboard in San Francisco\") has:images -is:retweet",
+      "resultsCount": 20,
+      "candidatesAdded": 1,
+      "duplicatesSkipped": 19,
+      "source": "automated",
+      "id": "search-1770924100848-uokcnc"
     }
   ],
   "monthlyQuota": 10000,

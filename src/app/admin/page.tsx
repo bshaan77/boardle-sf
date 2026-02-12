@@ -107,7 +107,7 @@ export default function AdminPage() {
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
       <div className="mx-auto max-w-6xl px-4 py-8">
-        <h1 className="mb-8 text-3xl font-bold">SF Billboard Admin</h1>
+        <h1 className="mb-8 text-3xl font-bold">Boardle SF Admin</h1>
 
         {/* Tabs */}
         <div className="mb-8 flex gap-1 rounded-lg bg-zinc-900 p-1">

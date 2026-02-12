@@ -4,53 +4,83 @@
       "query": "(\"just dropped\" OR \"launched\" OR \"our billboard\") SF has:images -is:retweet -is:reply",
       "createdAt": "2026-02-12T18:43:01.071Z",
       "source": "initial",
-      "totalAttempts": 1,
+      "totalAttempts": 4,
       "validBillboardsFound": 13,
-      "successRate": 13,
-      "lastUsed": "2026-02-12T18:43:16.544Z",
-      "avgConfidence": 0.5
+      "successRate": 3.25,
+      "lastUsed": "2026-02-12T19:21:41.320Z",
+      "avgConfidence": 0.125
     },
     {
       "query": "(\"new billboard\" OR \"billboard in SF\" OR \"billboard in San Francisco\") has:images -is:retweet",
       "createdAt": "2026-02-12T18:43:01.071Z",
       "source": "initial",
-      "totalAttempts": 0,
-      "validBillboardsFound": 0,
-      "successRate": 0,
-      "lastUsed": "2026-02-12T18:43:01.371Z",
-      "avgConfidence": 0
+      "totalAttempts": 3,
+      "validBillboardsFound": 25,
+      "successRate": 8.333333333333334,
+      "lastUsed": "2026-02-12T19:21:40.849Z",
+      "avgConfidence": 0.3333333333333333
     },
     {
       "query": "(from:numeralhq OR from:stripe OR from:vercel OR from:anthropicai OR from:openai) billboard has:images",
       "createdAt": "2026-02-12T18:43:01.071Z",
       "source": "initial",
-      "totalAttempts": 0,
+      "totalAttempts": 1,
       "validBillboardsFound": 0,
       "successRate": 0,
-      "lastUsed": "2026-02-12T18:43:01.371Z",
+      "lastUsed": "2026-02-12T18:55:27.358Z",
       "avgConfidence": 0
     },
     {
       "query": "(\"South Park\" OR Mission OR SOMA OR \"Highway 101\") billboard SF has:images",
       "createdAt": "2026-02-12T18:43:01.071Z",
       "source": "initial",
-      "totalAttempts": 0,
+      "totalAttempts": 1,
       "validBillboardsFound": 0,
       "successRate": 0,
-      "lastUsed": "2026-02-12T18:43:01.371Z",
+      "lastUsed": "2026-02-12T18:55:27.453Z",
       "avgConfidence": 0
     },
     {
       "query": "(startup OR tech OR \"YC\") \"billboard\" SF has:images -is:retweet",
       "createdAt": "2026-02-12T18:43:01.071Z",
       "source": "initial",
-      "totalAttempts": 0,
+      "totalAttempts": 1,
       "validBillboardsFound": 0,
       "successRate": 0,
-      "lastUsed": "2026-02-12T18:43:01.371Z",
+      "lastUsed": "2026-02-12T18:55:27.583Z",
       "avgConfidence": 0
+    },
+    {
+      "query": "(\"dropped\" OR \"launched\") billboard SF has:images",
+      "createdAt": "2026-02-12T18:55:27.834Z",
+      "totalAttempts": 5,
+      "validBillboardsFound": 5,
+      "successRate": 1,
+      "lastUsed": "2026-02-12T19:21:43.426Z",
+      "avgConfidence": 0.1,
+      "source": "claude-generated"
+    },
+    {
+      "query": "(tech OR startup OR YC) \"San Francisco\" billboard has:images",
+      "createdAt": "2026-02-12T18:55:27.834Z",
+      "totalAttempts": 4,
+      "validBillboardsFound": 0,
+      "successRate": 0,
+      "lastUsed": "2026-02-12T19:21:43.502Z",
+      "avgConfidence": 0,
+      "source": "claude-generated"
+    },
+    {
+      "query": "\"our billboard\" (SF OR \"San Francisco\") has:images",
+      "createdAt": "2026-02-12T18:55:27.834Z",
+      "totalAttempts": 4,
+      "validBillboardsFound": 0,
+      "successRate": 0,
+      "lastUsed": "2026-02-12T19:21:43.778Z",
+      "avgConfidence": 0,
+      "source": "claude-generated"
     }
   ],
   "dailyGoal": 3,
-  "lastUpdated": "2026-02-12T18:43:16.545Z"
+  "lastUpdated": "2026-02-12T19:21:43.778Z"
 }

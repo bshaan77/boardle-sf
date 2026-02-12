@@ -9,7 +9,7 @@ export default function Home() {
         <header className="w-full border-b border-zinc-800 px-4 py-4">
           <div className="mx-auto flex max-w-2xl items-center justify-between">
             <h1 className="text-2xl font-bold tracking-tight">
-              <span className="text-rose-500">SF</span> Billboard
+              <span className="text-rose-500">Boardle</span> SF
             </h1>
             <p className="text-sm text-zinc-500">Guess the company</p>
           </div>

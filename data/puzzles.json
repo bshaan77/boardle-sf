@@ -1092,6 +1092,726 @@
           "imageQuality": "medium"
         }
       }
+    },
+    {
+      "id": "70dd32c6-add3-4d8d-9d70-8dba28457de7",
+      "tweetId": "2021375883395686810",
+      "tweetText": "NEON has revealed a new billboard for ‘NO OTHER CHOICE’ after the film was snubbed at the Oscars\n\n“F YOUR CONSIDERATION” https://t.co/lOs9y7Oeo4",
+      "authorUsername": "DiscussingFilm",
+      "imageUrl": "https://pbs.twimg.com/media/HA1epmzXYAAYq9o.jpg",
+      "localImagePath": "/puzzles/cf02e80e-c286-484e-83ba-78b1c6c560b5.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.540Z",
+      "status": "pending",
+      "score": 48193,
+      "likeCount": 72620,
+      "retweetCount": 5939,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "edefaa29-389e-4faa-8021-695067411ad6",
+      "tweetId": "2021727022469234934",
+      "tweetText": "New billboard ad of Jung Kook modeling HuBlot watch in Seoul Korea  \n\nJUNGKOOK FOR HUBLOT\n#JUNGKOOKxHUBLOT\n#JUNGKOOKForHUBLOT https://t.co/gSiFtZWmnP",
+      "authorUsername": "AMERICAJUNGKOOK",
+      "imageUrl": "https://pbs.twimg.com/media/HA6eAtDW0AAHa6r.jpg",
+      "localImagePath": "/puzzles/0d785149-94ba-4983-958a-ff9fc0e800c1.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.004Z",
+      "status": "pending",
+      "score": 503,
+      "likeCount": 344,
+      "retweetCount": 163,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "cb8b4808-c48c-403a-8388-6240ede8aa2e",
+      "tweetId": "2021386033770922117",
+      "tweetText": "NEON unveiled a new billboard for NO OTHER CHOICE following its Oscars snub.\n\n“F YOUR CONSIDERATION” https://t.co/ICGhdvlyeO",
+      "authorUsername": "ashotmagazine",
+      "imageUrl": "https://pbs.twimg.com/media/HA1n4RMaAAArUt1.jpg",
+      "localImagePath": "/puzzles/ef66e404-0127-4e16-9296-15b8bcabef14.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.473Z",
+      "status": "pending",
+      "score": 258.5,
+      "likeCount": 375,
+      "retweetCount": 33,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "4a011138-a5b8-46a5-a54d-4f619c8611b0",
+      "tweetId": "2021365441260814340",
+      "tweetText": "🚨New billboard our campaign just erected near the ICE detention facility in Aurora, Colorado. Every ICE agent leaving the facility should know: you are not above the law. https://t.co/EEMeWk0eB9",
+      "authorUsername": "daveyseligman",
+      "imageUrl": "https://pbs.twimg.com/media/HA1VJ9TWAAA0skG.jpg",
+      "localImagePath": "/puzzles/7939324b-11b0-4786-8887-fa71d6767020.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.577Z",
+      "status": "pending",
+      "score": 197.5,
+      "likeCount": 223,
+      "retweetCount": 39,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "a90f0ab5-0b96-44bc-a84c-caff67435b5e",
+      "tweetId": "2021785212594934211",
+      "tweetText": "New billboard ad of #JUNGKOOK modeling HuBlot watch in Seoul Korea  \n\nJUNGKOOK FOR HUBLOT\n#JUNGKOOKxHUBLOT\n#JUNGKOOKForHUBLOT https://t.co/auedOvc1ND",
+      "authorUsername": "JK_CISteam",
+      "imageUrl": "https://pbs.twimg.com/media/HA7S76RbsAEAED5.jpg",
+      "localImagePath": "/puzzles/ae1d3de1-9171-4d0f-bfa5-e3e2b46b8422.jpg",
+      "fetchedAt": "2026-02-12T18:55:03.949Z",
+      "status": "pending",
+      "score": 154.5,
+      "likeCount": 91,
+      "retweetCount": 52,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "7270071d-6b23-4664-9093-cfa56198f762",
+      "tweetId": "2021612351116427367",
+      "tweetText": "@libsoftiktok This will be the new billboard for the hero's of the Democratic Party.  Soon they'll be making statues of them. https://t.co/9DGGG1Npxd",
+      "authorUsername": "facetioussoup",
+      "imageUrl": "https://pbs.twimg.com/media/HA41uAZXwAAemeW.jpg",
+      "localImagePath": "/puzzles/2efecc77-199b-4be2-99c4-3a915bdb1a24.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.161Z",
+      "status": "pending",
+      "score": 134.5,
+      "likeCount": 155,
+      "retweetCount": 26,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "ee9019bf-55a3-4398-8bb1-7d7bed01d0ce",
+      "tweetId": "2021955767172313514",
+      "tweetText": "Mom ni Caprice as a CapGo supporter talaga. Naka-like agad sa new Billboard\n\nCAPGO THUReasured MOMENTS https://t.co/K7aGAufEye",
+      "authorUsername": "ReadTheRoom01",
+      "imageUrl": "https://pbs.twimg.com/media/HA9uDRtbMAAC43c.jpg",
+      "localImagePath": "/puzzles/807b0cf4-6ea3-4105-8225-1b3822bea424.jpg",
+      "fetchedAt": "2026-02-12T18:55:03.890Z",
+      "status": "pending",
+      "score": 27,
+      "likeCount": 16,
+      "retweetCount": 7,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "f33fa2bb-0fdc-45b3-ba2b-4b95fec4c4e9",
+      "tweetId": "2021422298788659556",
+      "tweetText": "Production company and film distributor NEON recently dropped a new billboard for #ParkChanWook’s #박찬욱 #NoOtherChoice #어쩔수가없다. The cheeky advert featuring an iconic scene from the film clearly highlights their reaction to being snubbed of a nomination at the https://t.co/IO9gO4ti7U",
+      "authorUsername": "HypeMY",
+      "imageUrl": "https://pbs.twimg.com/media/HA2I183bsAAv7Pt.jpg",
+      "localImagePath": "/puzzles/d24b37d3-d7fa-448f-8968-4b386ab9f469.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.927Z",
+      "status": "pending",
+      "score": 18,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "25ca7d92-9f3c-4701-9cf3-1cba4e61ffa8",
+      "tweetId": "2021422298788659556",
+      "tweetText": "Production company and film distributor NEON recently dropped a new billboard for #ParkChanWook’s #박찬욱 #NoOtherChoice #어쩔수가없다. The cheeky advert featuring an iconic scene from the film clearly highlights their reaction to being snubbed of a nomination at the https://t.co/IO9gO4ti7U",
+      "authorUsername": "HypeMY",
+      "imageUrl": "https://pbs.twimg.com/media/HA2I2oAbcAACNAT.jpg",
+      "localImagePath": "/puzzles/e09e15a6-ee3b-4e62-811f-16388d298554.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.971Z",
+      "status": "pending",
+      "score": 18,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "c917279e-94f1-4fe2-b175-6db4e104c540",
+      "tweetId": "2021422298788659556",
+      "tweetText": "Production company and film distributor NEON recently dropped a new billboard for #ParkChanWook’s #박찬욱 #NoOtherChoice #어쩔수가없다. The cheeky advert featuring an iconic scene from the film clearly highlights their reaction to being snubbed of a nomination at the https://t.co/IO9gO4ti7U",
+      "authorUsername": "HypeMY",
+      "imageUrl": "https://pbs.twimg.com/media/HA2I3RlaAAEtOye.jpg",
+      "localImagePath": "/puzzles/0ead94f4-222e-4d8b-8d73-c3d2e93089c6.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.043Z",
+      "status": "pending",
+      "score": 18,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "9e1610b1-385b-4856-b5c4-32f1eb0dad8e",
+      "tweetId": "2021589836335874395",
+      "tweetText": "New billboard coming to Corona 👇 https://t.co/meRrE0clSU https://t.co/1E7bMq00KF",
+      "authorUsername": "estherkimvaret",
+      "imageUrl": "https://pbs.twimg.com/media/HA4hPhBbgAAPEF9.jpg",
+      "localImagePath": "/puzzles/079f79ce-aa49-446d-b54c-3bed1d415399.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.397Z",
+      "status": "pending",
+      "score": 17,
+      "likeCount": 8,
+      "retweetCount": 4,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "63518f6c-37b8-49b5-99fd-b4b056e21373",
+      "tweetId": "2021603535087960340",
+      "tweetText": "NEON dropped a new billboard aimed at The Academy after 'NO OTHER CHOICE' was snubbed at the Oscars.\n\n\"F YOUR CONSIDERATION.\" https://t.co/6NamDR19em",
+      "authorUsername": "ComplexPop",
+      "imageUrl": "https://pbs.twimg.com/media/HA4tr57XgAEDwih.jpg",
+      "localImagePath": "/puzzles/8e4b2e88-9141-4823-9d84-3e0b900d339f.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.265Z",
+      "status": "pending",
+      "score": 16.5,
+      "likeCount": 11,
+      "retweetCount": 3,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "8924b379-c83a-451d-81ee-5acc40075597",
+      "tweetId": "2021535310908449225",
+      "tweetText": "@PRETTYBAWBIE @LittleMrDRAMA You’re the one lying. PF2 left the charts after 31 weeks bb. That’s a fact. \n\nAnd 4 variants?? Yea 4 variants with each multiple versions amounting to 30 maybe😂 Unlike Cardi, Nicki also had website sales which are not allowed in the new billboard rules &amp; she still flopped https://t.co/oou7FiDils",
+      "authorUsername": "styralexxxx",
+      "imageUrl": "https://pbs.twimg.com/media/HA3vphKXcAAvPom.jpg",
+      "localImagePath": "/puzzles/f04e662e-ed59-4df7-9228-e18b47e4d9de.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.541Z",
+      "status": "pending",
+      "score": 15.5,
+      "likeCount": 11,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "17e6d29c-6045-49b5-9dd6-6a62f9e2bb0f",
+      "tweetId": "2021535310908449225",
+      "tweetText": "@PRETTYBAWBIE @LittleMrDRAMA You’re the one lying. PF2 left the charts after 31 weeks bb. That’s a fact. \n\nAnd 4 variants?? Yea 4 variants with each multiple versions amounting to 30 maybe😂 Unlike Cardi, Nicki also had website sales which are not allowed in the new billboard rules &amp; she still flopped https://t.co/oou7FiDils",
+      "authorUsername": "styralexxxx",
+      "imageUrl": "https://pbs.twimg.com/media/HA3vphMW0AAwkWY.jpg",
+      "localImagePath": "/puzzles/585fadbd-ca1f-4ad1-b70c-6afd2db30787.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.682Z",
+      "status": "pending",
+      "score": 15.5,
+      "likeCount": 11,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "cf9c640f-91a4-4c64-ab8a-a9d137461fc6",
+      "tweetId": "2021240615334187415",
+      "tweetText": "@Strategicobserv \n\n🚨 JUST IN: \n\nThe FBI says a new billboard campaign in the Nancy Guthrie case is aimed at generating a crucial piece of information that could help advance the investigation into her disappearance.\n#NancyGuthrie #FBI https://t.co/LpnPkwUaOP",
+      "authorUsername": "Strategicobserv",
+      "imageUrl": "https://pbs.twimg.com/media/HAzjoMdaIAAV2-4.jpg",
+      "localImagePath": "/puzzles/ae744f88-63c4-4b6a-83a6-959b0a8b1e29.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.728Z",
+      "status": "pending",
+      "score": 14.5,
+      "likeCount": 3,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "34e91bec-ae45-4fac-84ce-8a7d04934025",
+      "tweetId": "2021240615334187415",
+      "tweetText": "@Strategicobserv \n\n🚨 JUST IN: \n\nThe FBI says a new billboard campaign in the Nancy Guthrie case is aimed at generating a crucial piece of information that could help advance the investigation into her disappearance.\n#NancyGuthrie #FBI https://t.co/LpnPkwUaOP",
+      "authorUsername": "Strategicobserv",
+      "imageUrl": "https://pbs.twimg.com/media/HAzjoM5XcAEdSzU.jpg",
+      "localImagePath": "/puzzles/ec6383e4-f9fe-438f-8059-e7031c074cc4.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.836Z",
+      "status": "pending",
+      "score": 14.5,
+      "likeCount": 3,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "5d3afb73-9d0e-463d-80db-bcc885ef7bc7",
+      "tweetId": "2021599796646097145",
+      "tweetText": "New billboard coming to Corona 👇 https://t.co/CFu0hN0PdB https://t.co/oTqHDEicOq",
+      "authorUsername": "CDHMartinez",
+      "imageUrl": "https://pbs.twimg.com/media/HA4qHrjaIAAY8XS.jpg",
+      "localImagePath": "/puzzles/5be38bc7-2abb-4ab8-8c60-fc5506ecc0f5.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.321Z",
+      "status": "pending",
+      "score": 10.5,
+      "likeCount": 3,
+      "retweetCount": 2,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "d5c7b6a9-b04d-4b99-b390-cdaf0f36be32",
+      "tweetId": "2021386222980186209",
+      "tweetText": "NEON has revealed a new billboard for ‘NO OTHER CHOICE’ after the film was snubbed at the Oscars.\n\n“F YOUR CONSIDERATION” https://t.co/vtuVXF1Ncp",
+      "authorUsername": "GlobalNewsOnX",
+      "imageUrl": "https://pbs.twimg.com/media/HA1oAmNakAAkBJw.png",
+      "localImagePath": "/puzzles/10504c56-141b-42dd-8bb8-27780b164837.png",
+      "fetchedAt": "2026-02-12T18:55:05.411Z",
+      "status": "pending",
+      "score": 6,
+      "likeCount": 2,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "294b5663-fb9d-4e3f-9bc4-daa4066a17c7",
+      "tweetId": "2021427621750350207",
+      "tweetText": "NEON put up a new billboard for NO OTHER CHOICE after the film got snubbed by the Oscars.\n\n\"F YOUR CONSIDERATION\"\n\n#NoOtherChoice #Movies https://t.co/Syk7jNL03d",
+      "authorUsername": "mastershot_x",
+      "imageUrl": "https://pbs.twimg.com/media/HA2NtK2WAAAqGwX.jpg",
+      "localImagePath": "/puzzles/3407ad03-6857-4bd0-b5ca-e481aaa84d86.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.832Z",
+      "status": "pending",
+      "score": 5.5,
+      "likeCount": 1,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "d3bf6114-25e3-4422-9c26-eebec9574e0f",
+      "tweetId": "2021404994357092436",
+      "tweetText": "@DiscussingFilm NEON has revealed a new billboard for ‘NO OTHER CHOICE’ after the film was snubbed at the Oscars https://t.co/TjoOKxmcHO",
+      "authorUsername": "KGorld",
+      "imageUrl": "https://pbs.twimg.com/media/HA15H2NWEAEu_t6.jpg",
+      "localImagePath": "/puzzles/f3190a92-55d6-458b-a89b-630fe07b4374.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.226Z",
+      "status": "pending",
+      "score": 5.5,
+      "likeCount": 1,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "a1b5a688-0bf8-4f65-bd8d-20b85ced7c05",
+      "tweetId": "2022014569674375531",
+      "tweetText": "No more new billboards: A billboard battle that’s been playing out in Reno for more than two decades has reached a major milestone. The final permit that once allowed new billboards to be built has now expired. My full story at 5 @News4Reno https://t.co/oi9IpX3Dej https://t.co/p874PWqqHn",
+      "authorUsername": "RenoKimBurrows",
+      "imageUrl": "https://pbs.twimg.com/media/HA-gqLvbsAAk2wO.jpg",
+      "localImagePath": "/puzzles/cd872d0e-af93-4ce9-8156-d9a29103bc2c.jpg",
+      "fetchedAt": "2026-02-12T18:55:03.760Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "735d6c48-51c2-4b9c-b34b-10bb8e71d48a",
+      "tweetId": "2021606177012908241",
+      "tweetText": "NEON has a new billboard for ‘NO OTHER CHOICE’ (2025) after the film was snubbed at the Oscars. \n\n“F YOUR CONSIDERATION” --- See my honest review for this one of the best movies of 2025: https://t.co/LAlIc6KW4R https://t.co/koaW5NAmvF",
+      "authorUsername": "kitapveokuru",
+      "imageUrl": "https://pbs.twimg.com/media/HA4wBCkbkAA-xDv.jpg",
+      "localImagePath": "/puzzles/292a9314-b8ca-4a1d-8b2e-a82603762118.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.216Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "ce92e5b6-1da7-4563-93ea-f9aac27a7c5c",
+      "tweetId": "2021580477212045491",
+      "tweetText": "TikTok has become the new Billboard—who needs radio when you have this algorithm? https://t.co/L2CCJamdZY",
+      "authorUsername": "burnsflake0601",
+      "imageUrl": "https://pbs.twimg.com/media/HA4YtEXbIAAuiOp.jpg",
+      "localImagePath": "/puzzles/dc4b5c1c-e81a-4ace-aa98-72f7a20d5cdd.jpg",
+      "fetchedAt": "2026-02-12T18:55:04.450Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "6160f5e8-ea3e-4372-9f64-6d37c9043538",
+      "tweetId": "2021222484452810860",
+      "tweetText": "Huge shoutout to Mrs. Casey and her incredible students! Make sure to look up and catch their new billboard. 🎨✨ #loveisrespect #digitalstallions #schlagleunited #StallionPride https://t.co/g264MpFSQC",
+      "authorUsername": "schlaglemedia",
+      "imageUrl": "https://pbs.twimg.com/media/HAzTG_7aAAQmfKL.jpg",
+      "localImagePath": "/puzzles/ef7947c3-585a-4933-824d-854492529b98.jpg",
+      "fetchedAt": "2026-02-12T18:55:05.937Z",
+      "status": "pending",
+      "score": 5,
+      "likeCount": 0,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "1c18c96d-917c-41e9-9a93-d82bd0087ca2",
+      "tweetId": "2020214035195572367",
+      "tweetText": "RT @SpamRoss: the @numeral billboard just dropped in SF\n\nmarketing had some fun with it https://t.co/nqHKejzFnW",
+      "authorUsername": "FrncisHafoba",
+      "imageUrl": "https://pbs.twimg.com/media/HAaNblHWsAAPZ5v.jpg",
+      "localImagePath": "/puzzles/ae59f8dc-28c6-4621-a2e6-629de8f4755d.jpg",
+      "fetchedAt": "2026-02-12T18:55:28.183Z",
+      "status": "pending",
+      "score": 19,
+      "likeCount": 0,
+      "retweetCount": 7,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "683d5490-d9d4-4ae2-b599-dd0182c4ec97",
+      "tweetId": "2020016302576832730",
+      "tweetText": "RT @SpamRoss: the @numeral billboard just dropped in SF\n\nmarketing had some fun with it https://t.co/nqHKejzFnW",
+      "authorUsername": "notjaytowns",
+      "imageUrl": "https://pbs.twimg.com/media/HAaNblHWsAAPZ5v.jpg",
+      "localImagePath": "/puzzles/1b55d9ef-0815-4688-bec0-8d74e5a09cbd.jpg",
+      "fetchedAt": "2026-02-12T18:55:28.400Z",
+      "status": "pending",
+      "score": 19,
+      "likeCount": 0,
+      "retweetCount": 7,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "10477d14-017f-4622-a584-b792a8ac18d9",
+      "tweetId": "2019797459652743500",
+      "tweetText": "RT @SpamRoss: the @numeral billboard just dropped in SF\n\nmarketing had some fun with it https://t.co/nqHKejzFnW",
+      "authorUsername": "modafks",
+      "imageUrl": "https://pbs.twimg.com/media/HAaNblHWsAAPZ5v.jpg",
+      "localImagePath": "/puzzles/6cde2514-2351-4e31-bb8f-8d7163a58956.jpg",
+      "fetchedAt": "2026-02-12T18:55:28.451Z",
+      "status": "pending",
+      "score": 19,
+      "likeCount": 0,
+      "retweetCount": 7,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "59df75ba-016c-4fd4-94ac-cd0499f649d6",
+      "tweetId": "2019525501845746057",
+      "tweetText": "RT @SpamRoss: the @numeral billboard just dropped in SF\n\nmarketing had some fun with it https://t.co/nqHKejzFnW",
+      "authorUsername": "Fondocom",
+      "imageUrl": "https://pbs.twimg.com/media/HAaNblHWsAAPZ5v.jpg",
+      "localImagePath": "/puzzles/5bf2dc43-ec4e-49e1-ac93-9df798652fb6.jpg",
+      "fetchedAt": "2026-02-12T18:55:28.537Z",
+      "status": "pending",
+      "score": 19,
+      "likeCount": 0,
+      "retweetCount": 7,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "2caa0c5e-11f9-4175-b6f9-db87b7e85c3b",
+      "tweetId": "2019525316432261434",
+      "tweetText": "RT @SpamRoss: the @numeral billboard just dropped in SF\n\nmarketing had some fun with it https://t.co/nqHKejzFnW",
+      "authorUsername": "davj",
+      "imageUrl": "https://pbs.twimg.com/media/HAaNblHWsAAPZ5v.jpg",
+      "localImagePath": "/puzzles/71b1489d-7780-4e79-816c-57f765193add.jpg",
+      "fetchedAt": "2026-02-12T18:55:28.604Z",
+      "status": "pending",
+      "score": 19,
+      "likeCount": 0,
+      "retweetCount": 7,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
+    },
+    {
+      "id": "3a7a3c97-54fa-4b0b-b42a-b005c64b9a80",
+      "tweetId": "2022022929752736207",
+      "tweetText": "New billboard in Miami @warbuxbtc \n\nTrade BBC today #bitcoin #crypto https://t.co/Pptqycsivd",
+      "authorUsername": "Patrickwieland",
+      "imageUrl": "https://pbs.twimg.com/media/HA-rIyTWwAAWXhY.jpg",
+      "localImagePath": "/puzzles/bde1c3ac-dec3-4137-b142-7ffa135f11c3.jpg",
+      "fetchedAt": "2026-02-12T19:21:40.665Z",
+      "status": "pending",
+      "score": 8,
+      "likeCount": 6,
+      "retweetCount": 0,
+      "aiValidation": {
+        "isValid": true,
+        "confidence": 0.5,
+        "reason": "Validation failed: 401 Incorrect API key provided: OPENAI_A***********************************************************************************************************************************************************************qVwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "details": {
+          "isPhysicalBillboard": true,
+          "isInSanFrancisco": true,
+          "hasCompanyBranding": true,
+          "imageQuality": "medium"
+        }
+      }
     }
   ]
 }
