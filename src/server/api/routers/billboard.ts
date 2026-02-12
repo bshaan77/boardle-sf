@@ -11,6 +11,8 @@ import {
 } from "~/server/data/puzzles";
 import { COMPANIES } from "~/server/data/companies";
 import { recordSearch, getSearchStats } from "~/server/data/quota";
+import { runSmartSearch } from "~/server/services/smart-search";
+import { getQueryStats } from "~/server/data/query-performance";
 
 export const billboardRouter = createTRPCRouter({
   // Get today's puzzle (hides the answer)
@@ -183,5 +185,16 @@ export const billboardRouter = createTRPCRouter({
   // Get quota and search statistics
   getQuotaStats: publicProcedure.query(() => {
     return getSearchStats();
+  }),
+
+  // Get query performance statistics
+  getQueryStats: publicProcedure.query(() => {
+    return getQueryStats();
+  }),
+
+  // Run smart search (AI-powered search with goal-seeking)
+  runSmartSearch: publicProcedure.mutation(async () => {
+    const result = await runSmartSearch();
+    return result;
   }),
 });

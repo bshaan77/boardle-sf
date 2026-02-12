@@ -25,6 +25,17 @@ export interface CandidateImage {
   score?: number; // Quality score based on engagement
   likeCount?: number;
   retweetCount?: number;
+  aiValidation?: {
+    isValid: boolean;
+    confidence: number;
+    reason: string;
+    details: {
+      isPhysicalBillboard: boolean;
+      isInSanFrancisco: boolean;
+      hasCompanyBranding: boolean;
+      imageQuality: "high" | "medium" | "low";
+    };
+  };
 }
 
 interface PuzzleStore {

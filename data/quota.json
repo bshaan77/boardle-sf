@@ -1,0 +1,52 @@
+{
+  "searches": [
+    {
+      "timestamp": "2026-02-12T17:01:11.548Z",
+      "query": "default",
+      "resultsCount": 20,
+      "candidatesAdded": 27,
+      "duplicatesSkipped": 0,
+      "source": "manual",
+      "id": "search-1770915671549-da8fc9"
+    },
+    {
+      "timestamp": "2026-02-12T17:04:51.794Z",
+      "query": "default",
+      "resultsCount": 20,
+      "candidatesAdded": 0,
+      "duplicatesSkipped": 18,
+      "source": "manual",
+      "id": "search-1770915891794-rifq1l"
+    },
+    {
+      "timestamp": "2026-02-12T17:13:20.300Z",
+      "query": "default",
+      "resultsCount": 20,
+      "candidatesAdded": 0,
+      "duplicatesSkipped": 0,
+      "source": "manual",
+      "id": "search-1770916400300-4fzyce"
+    },
+    {
+      "timestamp": "2026-02-12T17:14:45.008Z",
+      "query": "default",
+      "resultsCount": 20,
+      "candidatesAdded": 2,
+      "duplicatesSkipped": 9,
+      "source": "manual",
+      "id": "search-1770916485008-3gmzzl"
+    },
+    {
+      "timestamp": "2026-02-12T17:18:43.789Z",
+      "query": "default",
+      "resultsCount": 20,
+      "candidatesAdded": 31,
+      "duplicatesSkipped": 0,
+      "source": "manual",
+      "id": "search-1770916723789-k5pkmn"
+    }
+  ],
+  "monthlyQuota": 10000,
+  "quotaWarningThreshold": 0.8,
+  "quotaCriticalThreshold": 0.95
+}

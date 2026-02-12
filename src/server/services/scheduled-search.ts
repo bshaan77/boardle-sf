@@ -1,12 +1,11 @@
 import cron from "node-cron";
-import { searchAndDownload } from "./twitter";
-import { addCandidates } from "~/server/data/puzzles";
-import { recordSearch, getCurrentMonthUsage } from "~/server/data/quota";
+import { runSmartSearch } from "./smart-search";
+import { getCurrentMonthUsage } from "~/server/data/quota";
 
 let cronJob: cron.ScheduledTask | null = null;
 
 export async function runScheduledSearch() {
-  console.log("[Scheduled Search] Starting automated billboard search...");
+  console.log("[Scheduled Search] Starting intelligent billboard search...");
 
   // Check quota before running
   const quotaUsage = getCurrentMonthUsage();
@@ -18,24 +17,20 @@ export async function runScheduledSearch() {
   }
 
   try {
-    const result = await searchAndDownload(undefined, 20);
-
-    // Record search in quota tracking
-    recordSearch({
-      timestamp: new Date().toISOString(),
-      query: "default",
-      resultsCount: 20, // maxResults requested
-      candidatesAdded: result.candidates.length,
-      duplicatesSkipped: result.duplicatesSkipped,
-      source: "automated",
-    });
-
-    // Add new candidates
-    addCandidates(result.candidates);
+    const result = await runSmartSearch();
 
     console.log(
-      `[Scheduled Search] Completed: ${result.candidates.length} new candidates added, ${result.duplicatesSkipped} duplicates skipped`,
+      `[Scheduled Search] Complete: ${result.validBillboardsFound} valid billboards found ` +
+        `(${result.totalCandidatesAdded} total, ${result.queriesRun} queries, ${result.newQueriesGenerated} new queries)`,
     );
+
+    if (result.reachedGoal) {
+      console.log(`[Scheduled Search] ✅ Daily goal reached!`);
+    } else {
+      console.warn(
+        `[Scheduled Search] ⚠️ Did not reach daily goal (${result.validBillboardsFound}/${process.env.DAILY_BILLBOARD_GOAL ?? 3})`,
+      );
+    }
   } catch (error) {
     console.error("[Scheduled Search] Error:", error);
   }

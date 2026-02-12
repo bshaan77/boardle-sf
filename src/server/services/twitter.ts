@@ -89,9 +89,10 @@ export async function searchBillboards(
   query?: string,
   maxResults = 20,
 ): Promise<TweetResult[]> {
-  // Enhanced default query with engagement filter
+  // Target launch announcements from companies/founders
+  // Common patterns: "just dropped", "launched", "our billboard", "new billboard"
   const defaultQuery =
-    '(billboard OR "out of home" OR OOH OR #SFBillboard) ("San Francisco" OR SF) has:images -is:retweet -is:reply lang:en min_faves:5';
+    '("just dropped" OR "launched" OR "our billboard" OR "new billboard" OR "billboard in SF") has:images -is:retweet -is:reply';
   const searchQuery = query ?? defaultQuery;
 
   const params = new URLSearchParams({
